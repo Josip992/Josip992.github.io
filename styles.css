@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: larger;
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  flex: 1;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.left img {
+  width: 110%;
+  height: 110%;
+  object-fit: cover;
+}
+
+.right {
+  flex: 1;
+  background-image: url('background.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 40px;
+  width: 100%;
+  max-width: 600px;
+  color: white;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: gray;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 1rem;
+  max-width: 400px;
+  text-wrap: balance;
+  font-size: large;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: rgb(255, 217, 0);
+}
+
+.highlight-gold {
+  color: rgb(255, 217, 0);
+  font-weight: bold; 
+}
+
+.highlight-peach {
+  color: rgb(253, 167, 68);
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
